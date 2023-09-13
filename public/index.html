@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Game Interface</title>
+    <style>
+        /* Base styles for desktop and larger screens */
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        .game-container {
+            width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Responsive styles for smaller screens */
+        @media screen and (max-width: 768px) {
+            .game-container {
+                width: 100%;
+                padding: 10px;
+            }
+        }
+        
+        /* Additional responsive styles for even smaller screens */
+        @media screen and (max-width: 480px) {
+            .game-container {
+                padding: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <!-- Your game content goes here -->
+        <h1>Welcome to My Game</h1>
+        <p>Instructions: Make Phrases</p>
+        <button>Start Game</button>
+        <!-- Add more game elements here -->
+    </div>
+</body>
+</html>
